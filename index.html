@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="active-contact-profile">
+        <button id="back" style="display: none">back</button>
+        <img
+          src=""
+          alt="profile"
+          style="
+            width: 60px;
+            border-radius: 50%;
+            margin-left: 20px;
+            margin-top: 5px;
+            display: none;
+          "
+        />
+        <p class="application-tittle">Chat Application</p>
+      </div>
+    </header>
+    <main>
+      <div class="menu-portal">
+        <ul class="contact-list">
+          <li class="contact active">
+            <div class="profile-pic">
+              <img
+                src="assets/1.png"
+                alt="profile-pic"
+                style="width: 50px; border-radius: 50%"
+              />
+            </div>
+            <div class="contact-name">jeff</div>
+          </li>
+          <li class="contact">
+            <div class="profile-pic">
+              <img
+                src="assets/1.png"
+                alt="profile-pic"
+                style="width: 50px; border-radius: 50%"
+              />
+            </div>
+            <div class="contact-name">Tom</div>
+          </li>
+          <li class="contact">
+            <div class="profile-pic">
+              <img
+                src="assets/1.png"
+                alt="profile-pic"
+                style="width: 50px; border-radius: 50%"
+              />
+            </div>
+            <div class="contact-name">Thomas</div>
+          </li>
+          <li class="contact">
+            <div class="profile-pic">
+              <img
+                src="assets/1.png"
+                alt="profile-pic"
+                style="width: 50px; border-radius: 50%"
+              />
+            </div>
+            <div class="contact-name">Mickel</div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="chat-portal">
+        <div class="data-section"></div>
+        <div class="typing-section">
+          <div style="display: flex">
+            <input type="text" placeholder="Type Message Here." />
+            <button id="send-icon">send</button>
+          </div>
+          <div style="display: flex">
+            <button id="voice-icon">voice</button>
+            <button id="voice-call-icon">voice call</button>
+            <button id="video-call-icon">video call</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
